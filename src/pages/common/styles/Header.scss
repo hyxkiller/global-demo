@@ -1,0 +1,45 @@
+.header-content{
+    width: 1224px;
+    height: 60px;
+    margin: 0 auto;
+    .logo{
+        width: 134px;
+        height: 32px;
+        background: red;
+        float: left;
+        height: 60px;
+    }
+    .nav{
+        display: inline-block;
+        height: 60px;
+        line-height: 60px;
+        .navList{
+            color: #fff;
+        }
+        .navListHover{
+            color: #f4f4f4;
+        }
+        .ant-popover-open{
+            cursor: pointer;
+        }
+        .support-ul{
+            cursor: pointer;
+            .support-li{
+                display: block;
+                float: left;
+            }
+        }
+    }
+    .user{
+        float: right;
+        height: 60px;
+        line-height: 60px;
+        .islogin, .notlogin, .langDropdown{
+            float: left;
+        }
+        .islogin .userList, .funds {
+            float: left;
+            cursor: pointer;
+        }
+    }
+}
